@@ -159,15 +159,15 @@ var notie = function(){
                 break;
             case 2:
                 alert_outer.style.backgroundColor = alert_color_warning_background;
-                className = 'notie-warning-success';
+                className = 'notie-type-warning';
                 break;
             case 3:
                 alert_outer.style.backgroundColor = alert_color_error_background;
-                className = 'notie-error-success';
+                className = 'notie-type-error';
                 break;
             case 4:
                 alert_outer.style.backgroundColor = alert_color_info_background;
-                className = 'notie-info-success';
+                className = 'notie-type-info';
                 break;
         }
         alert_outer.className = className;
