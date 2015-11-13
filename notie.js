@@ -170,6 +170,7 @@ var notie = function(){
                 className = 'notie-info-success';
                 break;
         }
+        alert_outer.className = className;
 
         // Set notie text
         alert_text.innerHTML = message;
