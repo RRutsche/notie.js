@@ -149,19 +149,25 @@ var notie = function(){
             duration = seconds * 1000;
         }
 
+        var className = '';
+
         // Set notie type (background color)
         switch(type) {
             case 1:
                 alert_outer.style.backgroundColor = alert_color_success_background;
+                className = 'notie-type-success';
                 break;
             case 2:
                 alert_outer.style.backgroundColor = alert_color_warning_background;
+                className = 'notie-warning-success';
                 break;
             case 3:
                 alert_outer.style.backgroundColor = alert_color_error_background;
+                className = 'notie-error-success';
                 break;
             case 4:
                 alert_outer.style.backgroundColor = alert_color_info_background;
+                className = 'notie-info-success';
                 break;
         }
 
