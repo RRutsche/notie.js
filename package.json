@@ -1,0 +1,26 @@
+{
+  "name": "notiejs",
+  "version": "0.0.1",
+  "description": "npm wrapper for notie.js lib",
+  "main": "notie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RRutsche/notie.git"
+  },
+  "keywords": [
+    "notie",
+    "alert",
+    "growl",
+    "javascript",
+    "npm"
+  ],
+  "author": "rrutsche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RRutsche/notie/issues"
+  },
+  "homepage": "https://github.com/RRutsche/notie"
+}
